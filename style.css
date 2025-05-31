@@ -204,7 +204,7 @@ section#first h1 {
         margin: 50px 20px 20px 20px;
     }
     section#first p.font {
-        font-size: 16px;
+        font-size: 23px !important;
     }
 }
 section#first p.font {
@@ -951,6 +951,17 @@ section.join .card img {
     width: 150px;
     height: 0%;
     margin-right: 15px;
+}
+video {
+    max-width: 900px;
+    max-height: auto;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 936px) {
+    video {
+    max-width: 80vw;
+    max-height: auto;
+}
 }
 @media screen and (max-width: 660px) {
     section.join .card p {
